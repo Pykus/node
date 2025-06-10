@@ -1,16 +1,19 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"description": "A project that does something awesome",
-	"dependencies": {
-		"express": "^4.21.2"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Pykus/node.git"
-	},
-	"author": "Jane Doe"
+  "name": "please-caption-mastodon",
+  "author": "Isha J",
+  "description":"glitch proj",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mastodon-api": "^1.3.0",
+    "parse-link-header": "^1.0.1",
+    "tracery-grammar": "^2.7.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
